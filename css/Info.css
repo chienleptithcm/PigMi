@@ -1,97 +1,98 @@
 .row {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
+/* Bổ sung CSS */
+.img-fluid_2_2 {
+  max-width: 45%;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+/* ------------ */
 .header {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .nav {
-    background-color: rgb(153, 95, 7);
+  background-color: rgb(153, 95, 7);
 }
 
 .nav .navbar-expand-lg .navbar-nav .nav-link {
-    color: white;
-    font-size: 140%;
+  color: white;
+  font-size: 140%;
 }
 
 .nav .navbar-expand-lg .navbar-nav li:hover,
 .active {
-    background-color: rgb(184, 113, 8);
+  background-color: rgb(184, 113, 8);
 }
 
-
 .nav .navbar {
-    padding: 0;
+  padding: 0;
 }
 
 .btn-group {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
-.banner{
-    background-image: url(../img/Info/banner.jpg);
-    background-size: contain;
-    
+.banner {
+  background-image: url(../img/Info/banner.jpg);
+  background-size: contain;
 }
-
-
-
-
-
 
 .lytra {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .ct1 {
-    display: flex;
-    padding-bottom: 50px;
-
+  display: flex;
+  padding-bottom: 50px;
 }
 
 .ct2 {
-    display: flex;
-    padding-bottom: 50px;
+  display: flex;
+  padding-bottom: 50px;
 }
 
 .noidung {
-    background-color: bisque;
-    padding-bottom: 50px;
-    padding-left: 0%;
-    padding-right: 2%;
-    padding-bottom: 7%;
+  background-color: bisque;
+  padding-bottom: 50px;
+  padding-left: 0%;
+  padding-right: 2%;
+  padding-bottom: 7%;
 }
 
 .tt img {
-    width: 40%;
-    margin-left: 30%;
-    padding-top: 30%;
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 30%;
 }
 
 .tt {
-    /* margin-left: 20%;
+  /* margin-left: 20%;
     margin-right: 20%; */
-    /* height: 55%; */
-    background-color: white;
-    border-radius: 50%;
+  /* height: 55%; */
+  background-color: white;
+  border-radius: 50%;
 }
 
-
 .ct4 {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 .footer .row .col-md-4 {
-    background-color: rgb(153, 95, 7);
-    text-align: center;
-    color: #fff;
-    font-size: 60%;
+  background-color: rgb(153, 95, 7);
+  text-align: center;
+  color: #fff;
+  font-size: 60%;
 }
 
-.footer .row  .col-md-8 ul {
-    list-style: none;
-    padding: 0;
-    font-size: 60%;
+.footer .row .col-md-8 ul {
+  list-style: none;
+  padding: 0;
+  font-size: 60%;
 }
